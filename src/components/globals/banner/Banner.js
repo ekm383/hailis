@@ -54,7 +54,7 @@ const BannerWrapper = styled.div`
     margin: 0 auto;
     .box {
       flex-basis: 100%;
-      padding: 5rem 0rem;
+      padding: 5rem 0rem 3rem 0rem;
     }
     img {
       width: 90%;
