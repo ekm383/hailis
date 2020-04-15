@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
+import MenuIntegration from "../components/MenuIntegration"
 import Section from "../components/globals/section/Section"
 
 const Menu = () => (
@@ -24,7 +25,9 @@ const Menu = () => (
         <Banner titleSmall="Menu"></Banner>
       </Section>
     </HeaderIndex>
-    <Section style={{ padding: "2rem 0rem" }}></Section>
+    <Section style={{ padding: "2rem 0rem" }}>
+      <MenuIntegration />
+    </Section>
   </Layout>
 )
 
