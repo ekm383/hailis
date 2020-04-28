@@ -26,7 +26,7 @@ const IndexPage = () => (
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner
           title="Haili's Hawaiian Food"
-          subtitle="Haili's is located on 760 Palani Ave near Waikiki. We serve traditional Hawaiian cuisine like lau lau, kalua pig, ahi poke and more. Family owned since 1960."
+          subtitle="Haili's is located on 760 Palani Ave near Waikiki. We serve traditional Hawaiian cuisine like lau lau, kalua pig, ahi poke and more. Family owned since 1950."
         >
           <AniLink fade to="/menu">
             <Button>ORDER TAKEOUT</Button>

@@ -30,8 +30,7 @@ class Footer extends Component {
           <h4>Contact Information</h4>
           <p>760 Palani Ave. Honolulu, HI 96816</p>
           <p className="phone">(808) 735-8019</p>
-          <p>Tue-Sat 10:00am - 5:00pm</p>
-          <p>Sun 10:00am - 2:00pm</p>
+          <p>Tue - Sun 10:00am - 2:00pm</p>
           <p>Mon Closed</p>
           {this.state.icons.map(item => (
             <a
