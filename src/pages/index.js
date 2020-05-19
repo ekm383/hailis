@@ -31,6 +31,9 @@ const IndexPage = () => (
           <AniLink fade to="/menu">
             <Button>ORDER TAKEOUT</Button>
           </AniLink>
+          <a href="https://www.hailishawaiianfood.com/menu#/restaurants/hailishawaiianfoods/7943/menus/36981/categories/176590">
+            <Button>PUNAHOU REUNION</Button>
+          </a>
         </Banner>
       </Section>
     </HeaderIndex>
