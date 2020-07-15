@@ -12,7 +12,8 @@ class NavBarLinks extends Component {
       },
       {
         id: 1,
-        path: "/menu",
+        path:
+          "https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1",
         text: "menu",
       },
       {
@@ -43,9 +44,9 @@ class NavBarLinks extends Component {
         {this.state.links.map(item => {
           return (
             <li key={item.id}>
-              <AniLink fade to={item.path} className="nav-link">
+              <a href={item.path} className="nav-link">
                 {item.text}
-              </AniLink>
+              </a>
             </li>
           )
         })}
