@@ -9,17 +9,12 @@ class Footer extends Component {
       {
         id: 2,
         icon: <FaInstagram className="icon facebook-instagram" />,
-        path: "https://www.instagram.com/restaurantmarketinghawaii",
-      },
-      {
-        id: 3,
-        icon: <FaGoogle className="icon google-icon" />,
-        path: "https://www.google.com/restaurantmarketinghawaii",
+        path: "https://www.instagram.com/hailishawaiianfoods/",
       },
       {
         id: 1,
         icon: <FaFacebook className="icon facebook-icon" />,
-        path: "https://www.facebook.com/restaurantmarketinghawaii",
+        path: "https://www.facebook.com/HailisHawaiianFoods/",
       },
     ],
   }
