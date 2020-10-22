@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 class NavBarLinks extends Component {
   state = {

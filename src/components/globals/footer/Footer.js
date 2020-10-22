@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import styled from "styled-components"
 import Map from "../../Map"
-import { FaInstagram, FaFacebook, FaGoogle } from "react-icons/fa"
+import { FaInstagram, FaFacebook } from "react-icons/fa"
 
 class Footer extends Component {
   state = {
