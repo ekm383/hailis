@@ -12,7 +12,7 @@ class NavBarLinks extends Component {
       },
       {
         id: 1,
-        path: "/menu",
+        path: "https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1",
         text: "menu",
       },
       {

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
@@ -28,9 +27,9 @@ const IndexPage = () => (
           title="Haili's Hawaiian Food"
           subtitle="Haili's is located on 760 Palani Ave near Waikiki. We serve traditional Hawaiian cuisine like lau lau, kalua pig, ahi poke and more. Family owned since 1950."
         >
-          <AniLink fade to="/menu">
+          <a href="https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1">
             <Button>ORDER TAKEOUT</Button>
-          </AniLink>
+          </a>
 
         </Banner>
       </Section>
