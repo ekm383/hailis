@@ -1,27 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from "gatsby-image"
-import { graphql, useStaticQuery } from "gatsby"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
 import Button from "../components/globals/button/Button"
 import Intro from "../components/Intro"
 import Section from "../components/globals/section/Section"
+import Flyers from "../components/Flyers"
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      promo: file(relativePath: { eq: "hailis-promo.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 800) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-  const promoImage = data.promo.childImageSharp.fluid
   return (
     <Layout>
       <SEO
@@ -48,12 +35,8 @@ const IndexPage = () => {
           </Banner>
         </Section>
       </HeaderIndex>
+      <Flyers />
       <Section style={{ padding: "3rem 0rem 1rem 0rem" }}>
-        <Img
-          fluid={promoImage}
-          alt="promotion"
-          style={{ width: "500px", margin: "1rem auto 2rem auto" }}
-        />
         <Intro
           style={{ marginBottom: "0rem", textAlign: "center" }}
           heading="Welcome to Haili's"
