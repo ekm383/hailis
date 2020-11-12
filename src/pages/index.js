@@ -32,6 +32,9 @@ const IndexPage = () => {
             <a href="https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1">
               <Button>ORDER TAKEOUT</Button>
             </a>
+            <a href="https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1">
+              <Button>ORDER THANKSGIVING SET</Button>
+            </a>
           </Banner>
         </Section>
       </HeaderIndex>

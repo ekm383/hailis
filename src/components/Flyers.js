@@ -27,7 +27,9 @@ const Flyers = () => {
   return (
     <StyledFlyer>
       <Img className="promo-image" fluid={promoImage} alt="promotion" />
-      <Img className="promo-image" fluid={thanksImage} alt="promotion" />
+      <a href="https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1">
+        <Img className="promo-image" fluid={thanksImage} alt="promotion" />
+      </a>
     </StyledFlyer>
   )
 }

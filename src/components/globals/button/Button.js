@@ -26,6 +26,14 @@ const ButtonWrapper = styled.button`
   &:focus {
     outline: none;
   }
+  :nth-child(1) {
+    margin: 0.5rem auto 0rem auto;
+  }
+  @media (max-width: 768px) {
+    :nth-child(1) {
+      margin: 1rem auto 0rem auto;
+    }
+  }
 `
 
 export default Button
