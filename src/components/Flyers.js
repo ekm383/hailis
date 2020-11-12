@@ -45,6 +45,10 @@ const StyledFlyer = styled.div`
     width: 320px;
     margin-top: 25px;
   }
+  a .promo-image {
+    width: 300px;
+    margin-top: 25px;
+  }
   @media (max-width: 768px) {
     .promo-image {
       width: 500px;
