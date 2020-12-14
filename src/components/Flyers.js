@@ -13,23 +13,12 @@ const Flyers = () => {
           }
         }
       }
-      thanks: file(relativePath: { eq: "hailis-thanksgiving.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 800) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
     }
   `)
   const promoImage = data.promo.childImageSharp.fluid
-  const thanksImage = data.thanks.childImageSharp.fluid
   return (
     <StyledFlyer>
       <Img className="promo-image" fluid={promoImage} alt="promotion" />
-      <a href="https://www.grindztogo.com/single.php/order/restaurant/18?takeout=1">
-        <Img className="promo-image" fluid={thanksImage} alt="promotion" />
-      </a>
     </StyledFlyer>
   )
 }
