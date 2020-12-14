@@ -13,12 +13,23 @@ const Flyers = () => {
           }
         }
       }
+      xmas: file(relativePath: { eq: "Hailis-Xmas-Ad.jpg" }) {
+        childImageSharp {
+          fluid(quality: 90, maxWidth: 800) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `)
   const promoImage = data.promo.childImageSharp.fluid
+  const xmasImage = data.xmas.childImageSharp.fluid
   return (
     <StyledFlyer>
       <Img className="promo-image" fluid={promoImage} alt="promotion" />
+      <a href="https://www.grindztogo.com/single.php/order/restaurant/hailis-hawaiian-foods/18?takeout=1">
+        <Img className="promo-image" fluid={xmasImage} alt="promotion" />
+      </a>
     </StyledFlyer>
   )
 }
